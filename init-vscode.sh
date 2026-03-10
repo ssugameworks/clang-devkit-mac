@@ -278,6 +278,7 @@ main() {
   print_logo
   print_banner "VS Code 프로젝트 생성 스크립트"
   print_info "VS Code C/C++ 프로젝트 템플릿을 만듭니다."
+  print_info "문의사항은 홍준우에게 갠톡 주세요."
 
   prompt_project_name
   if [ "$#" -lt 2 ]; then

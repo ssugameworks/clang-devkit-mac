@@ -351,6 +351,7 @@ step_intro() {
   print_banner "macOS C/C++ Setup"
   print_info "게임웍스 가입을 환영합니다!"
   print_info "이 스크립트는 C/C++ 설치를 자동화합니다."
+  print_info "문의사항은 홍준우에게 갠톡 주세요."
   confirm_installation
   select_editor_option
 }
